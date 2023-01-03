@@ -1,5 +1,7 @@
 // ASSESSMENT 3: Coding Practical Questions with Jest
 
+const { COMMENT_KEYS } = require("@babel/types")
+
 // Please read all questions thoroughly
 // Pseudo coding is REQUIRED
 // If you get stuck, please leave comments to help us understand your thought process
@@ -14,14 +16,30 @@
 
 // a) Create a test with expect statements for each of the variables provided.
 
+describe("fibbyTest", () => {
+  it ("takes in a number (greater than 2) and returns an array that length containing the numbers of the Fibonacci sequence", () => {
+    let fibbyNumbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89,]
+    expect(fibbyTest(fibLength1, fibLength2)).toEqual([fibbyNumbers.map(fibLength1.length), (fibbyNumbers.map(fibLength2.length))])
+  })
+})
+//test failure
+// ● fibbyTest › takes in a number (greater than 2) and returns an array that length containing the numbers of the Fibonacci sequence
+
+//     ReferenceError: fibbyTest is not defined
+
 const fibLength1 = 6
+
 // Expected output: [1, 1, 2, 3, 5, 8]
 
 const fibLength2 = 10
 // Expected output: [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
 // b) Create the function that makes the test pass.
-
+const fibbyTest = (fibLength1, fibLength2) => {
+  
+}
+console.log(fibbyTest()) 
+//I would also keep getting an error regarding the .map method used but not sure why
 // --------------------2) Create a function that takes in an object and returns an array of the values sorted from least to greatest.
 // Hint: Check out this resource: Object.values() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values
 
