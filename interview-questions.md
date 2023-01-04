@@ -53,3 +53,6 @@ Researched answer: Div tags are block level elements, they can be used to divide
 4. Ruby blocks: Ruby blocks are anonymous functions that can be passed into methods enclosed in a do/end statement or between curly braces, they can also have multiple arguments separated by pipe characters (|)
 
 5. Ruby hashes: Ruby hashes are data structures that store items by associated keys or key value pairs.
+
+//
+//
