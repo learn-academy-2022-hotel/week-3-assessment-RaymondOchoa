@@ -20,10 +20,10 @@ Researched answer: Yarn is both a package and a project manager. A package manag
 
 3. What is a React component?
 
-Your answer: React components are functions 
+Your answer: React components are pieces of reusable code that work similar to javascript but return HTML. 
 
-Researched answer:
-
+Researched answer: Components are a specific type of function that can contain javascript logic and returns markup that gets rendered to the browser. This essentially means that you can write javascript like code and react will return the changes made through the DOM in your browser on the local. 
+s
 4. What is the difference between state values and props in React?
 
 Your answer: React state values are values that we assign to a useState method so that it passes the information through. Props, or Properties refers to the 
